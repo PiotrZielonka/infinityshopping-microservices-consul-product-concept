@@ -1,3 +1,6 @@
 [submodule "gateway"]
 	path = gateway
 	url = https://github.com/PiotrZielonka/infinityshopping-gateway.git
+[submodule "store"]
+	path = store
+	url = https://github.com/PiotrZielonka/infinityshopping-store.git

@@ -4,3 +4,6 @@
 [submodule "store"]
 	path = store
 	url = https://github.com/PiotrZielonka/infinityshopping-microservice-consul-store.git
+[submodule "notification"]
+	path = notification
+	url = https://github.com/PiotrZielonka/infinityshopping-microservice-consul-notification.git

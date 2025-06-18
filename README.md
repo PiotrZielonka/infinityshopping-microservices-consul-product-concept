@@ -4,7 +4,6 @@ This is the **microservices-based concept** of the [InfinityShopping](https://gi
 
 The purpose of this repository is to **learn and demonstrate microservices architecture** using **JHipster**, **Spring Boot**, and **Consul**, while offering a solid base for scaling the monolith into a full microservices solution.
 
-> 🛠️ This is a **training and concept project**, not a production-ready application.
 ---
 
 ## 🚀 Project Goals
@@ -105,16 +104,15 @@ To make sure you are running with the correct setup:
 
 ### Launch
 
-1. **Start the Gateway** (`localhost:8080`)
-2. Start the Store (`localhost:8081`) and Notification (`localhost:8082`) microservices
-3. Navigate to [http://localhost:8080](http://localhost:8080) to log in.
-   Gateway will route requests to the microservices automatically.
+1. Start the Gateway on `localhost:8080` 
+2. Start the Store Microservice on `localhost:8081`   
+2. Start the Notification Microservice on `localhost:8082`  
+3. In each project directory (gateway, store and notification), run the following command:
 
----
+```bash
+   ./mvnw
+````
 
-## 🔭 Project Scope
-
-This is a **learning playground** but also a **powerful concept prototype** for real-world microservice systems.
 
 ---
 
@@ -122,14 +120,14 @@ This is a **learning playground** but also a **powerful concept prototype** for 
 
 If you have questions or want to connect:
 
-* Open an issue on this repository
 * Check out the monolith version: [InfinityShopping Monolith](https://github.com/PiotrZielonka/infinityshopping)
+* Open an issue on this repository
 
 ---
 
-## 🤝 Contributing
+## 🔭 Project Scope
 
-This is a personal training and demo project. Contributions are welcome.
+This is a **learning playground** but also a **powerful concept prototype** for real-world microservice systems.
+
 
 ---
-

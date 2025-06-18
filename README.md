@@ -93,7 +93,7 @@ git clone --recurse-submodules https://github.com/PiotrZielonka/infinityshopping
 
 To make sure you are running with the correct setup:
 
-1. Start Docker (required for some JHipster containers, like Keycloak or registry).
+1. Start Docker (required for some JHipster containers).
 2. **Delete any PostgreSQL Docker containers** after startup.
 
     * This avoids conflict since **local DB connection is used** (not Docker).

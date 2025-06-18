@@ -1,6 +1,3 @@
-
----
-
 # InfinityShopping Microservices – Concept and Demo
 
 This is the **microservices-based concept** of the [InfinityShopping](https://github.com/PiotrZielonka/infinityshopping) e-commerce shop generator, originally implemented as a **monolithic JHipster application**.
@@ -88,7 +85,7 @@ git clone --recurse-submodules https://github.com/PiotrZielonka/infinityshopping
 
 * This project has been tested with Docker Desktop version 28.0.4, but it should work with any newer release.
 * Node.js 22.15.1 (x64) is verified to work, but other versions may also be compatible.
-* “PostgreSQL must be installed locally for database setup and connection.
+* PostgreSQL must be installed locally for database setup and connection.
 
 ### Database Setup Instructions
 
@@ -115,22 +112,9 @@ To make sure you are running with the correct setup:
 
 ---
 
-## 🔭 Future Vision
-
-The long-term vision is to enable developers to:
-
-* Generate an entire e-commerce platform using **one command**
-* Dynamically add microservices (e.g., `payment`, `review`, `inventory`) via JHipster
-* Scale the project architecture from monolith to microservices on demand
-* Use either Consul or Eureka depending on the environment
+## 🔭 Project Scope
 
 This is a **learning playground** but also a **powerful concept prototype** for real-world microservice systems.
-
----
-
-## 🤝 Contributing
-
-This is a personal training and demo project. Contributions are welcome, especially improvements or comparisons between service registries.
 
 ---
 
@@ -140,65 +124,12 @@ If you have questions or want to connect:
 
 * Open an issue on this repository
 * Check out the monolith version: [InfinityShopping Monolith](https://github.com/PiotrZielonka/infinityshopping)
-* Explore each microservice from the submodules
-
-
-
-
-
-Perfect! Here's the updated section for your `README.md` that includes the **Git submodule strategy** plus your new line for cloning everything in one command.
 
 ---
 
-## 🧱 Microservices Strategy with Git Submodules
+## 🤝 Contributing
 
-Each microservice (e.g., `gateway`, `store`, `notification`) is stored in its own Git repository and linked here as a **Git submodule**. This allows for modular development and easy team collaboration.
-
-### Why use submodules?
-
-* Teams can work independently on each microservice
-* Each service has its own versioning and lifecycle
-* Everything stays organized in one main project structure
-* Mimics real-world CI/CD architecture
+This is a personal training and demo project. Contributions are welcome.
 
 ---
 
-### 🧰 How to Use Git with Submodules
-
-#### ✅ Clone the main project **with all submodules**:
-
-```bash
-git clone --recurse-submodules https://github.com/PiotrZielonka/infinityshopping-microservices-consul-product-concept.git
-```
-
-This command pulls all microservices (submodules) at once.
-
----
-
-#### ✅ To update all submodules to their latest versions:
-
-```bash
-git submodule update --remote --merge
-```
-
----
-
-#### ✅ To update a single submodule:
-
-Go into the submodule folder, make changes, commit and push:
-
-```bash
-cd infinityshopping-microservice-consul-store
-git commit -am "Update store logic"
-git push
-```
-
-Then return to the main repo and update the submodule pointer:
-
-```bash
-git submodule update --remote --merge
-```
-
----
-
-Would you like to include a visual diagram or file tree for how the submodules are structured in your project? It could make the concept even more clear for new developers.
